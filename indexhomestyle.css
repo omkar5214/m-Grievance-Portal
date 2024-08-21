@@ -1,0 +1,104 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #000000;
+}
+
+/* Color of the navbar BEFORE scroll */
+.navbar-scroll {
+  background-color: aqua;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #262626;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
+
+}
+
+.navbar-brand img{
+    height :100%;
+}
+
+.carousel{
+    margin-top: 4.5rem ;
+}
+
+#carouselMaterialStyle
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 95vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('images/login-bg.jpg');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('images/portal2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+.homeabout{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.homeabout .image{
+    flex:1 1 41rem;
+}
+
+.homeabout .image img{
+    width: 100%;
+}
+
+.homeabout .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+}
+
+.homeabout .content h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.homeabout .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+
+.about{
+    margin: 100px;
+}
